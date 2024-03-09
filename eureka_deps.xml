@@ -18,7 +18,6 @@
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="linage" revision="lineage-20" />
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" />
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="thirteen"/>
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-13"/>
         <!-- SLSI Linaro -->
         <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="eureka" />
