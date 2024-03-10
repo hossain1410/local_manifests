@@ -8,6 +8,9 @@
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
                 revision="master"/>
+        <remote name="noyon"
+                fetch="https://github.com/noyon7985"
+                revision="master"/>
         <!-- Sync trees -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-13" />
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-20.0" />
@@ -18,7 +21,7 @@
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="linage" revision="lineage-20" />
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" />
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="thirteen"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="noyon" revision="thirteen"/>
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-13"/>
         <!-- SLSI Linaro -->
         <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="eureka" />
