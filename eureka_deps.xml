@@ -2,7 +2,7 @@
 <manifest>
         <remote name="eureka"
                 fetch="https://github.com/eurekadevelopment"
-                revision="lineage-20"/>
+                revision="lineage-19.1"/>
         <remote name="linage"
                 fetch="https://github.com/LineageOS" />
         <remote name="royna"
