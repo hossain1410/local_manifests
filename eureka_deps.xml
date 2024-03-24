@@ -4,6 +4,8 @@
                 fetch="https://github.com/eurekadevelopment"/>
         <remote name="linag"
                 fetch="https://github.com/LineageOS" />
+	<remote name="royna"
+                fetch="https://github.com/Roynas-Android-Playground" />
 
         <!-- Sync trees -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-14" />
@@ -14,7 +16,7 @@
                  remote="linag" revision="lineage-21" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="linag" revision="lineage-21" />
-        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="linag" />
+        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="linag" revision="lineage-21"/>
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-14"/>
         <!-- SLSI Linaro -->
