@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="eureka"
-                fetch="https://github.com/eurekadevelopment"/>
+                fetch="https://github.com/eurekadevelopment"
+		revision="lineage-21" />
         <remote name="linag"
-                fetch="https://github.com/LineageOS" />
+                fetch="https://github.com/LineageOS" 
+		revision="lineage-21" />
 	<remote name="royna"
-                fetch="https://github.com/Roynas-Android-Playground" />
+                fetch="https://github.com/Roynas-Android-Playground" 
+		revision="master"/>
 
         <!-- Sync trees -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-14" />
@@ -20,9 +23,9 @@
         <project path="hardware/samsung" name="android_hardware_samsung" remote="linag" revision="lineage-21"/>
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-14"/>
         <!-- SLSI Linaro -->
-	<project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="linag" />
-	<project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="linag" />
-        <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="linag" />
-        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linag" />
-        <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="linag" />
+	<project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="linag" revision="lineage-21" />
+	<project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="linag" revision="lineage-21" />
+        <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="linag" revision="lineage-21" />
+        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linag" revision="lineage-21" />
+        <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="linag" revision="lineage-21" />
 </manifest>
