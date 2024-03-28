@@ -6,8 +6,7 @@
         <remote name="k9"
                 fetch="https://github.com/K9100ii"/>
         <remote name="linag"
-                fetch="https://github.com/LineageOS" 
-                revision="lineage-20" />
+                fetch="https://github.com/LineageOS" />
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
                 revision="master"/>
