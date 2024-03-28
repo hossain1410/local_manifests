@@ -4,8 +4,7 @@
                 fetch="https://github.com/eurekadevelopment"
 		revision="lineage-21"/>
 	<remote name="k9"
-                fetch="https://github.com/K9100ii"
-		revision="lineage-21"/>
+                fetch="https://github.com/K9100ii"/>
         <remote name="linag"
                 fetch="https://github.com/LineageOS"/>
 	<remote name="royna"
