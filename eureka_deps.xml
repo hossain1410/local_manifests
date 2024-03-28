@@ -3,7 +3,7 @@
         <remote name="eureka"
                 fetch="https://github.com/eurekadevelopment"
                 revision="lineage-21"/>
-        <remote name="linage"
+        <remote name="linag"
                 fetch="https://github.com/LineageOS" />
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
